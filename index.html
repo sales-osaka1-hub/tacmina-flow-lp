@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>フロー合成×スムーズフローポンプ｜タクミナ</title>
+<meta name="description" content="フロー合成（フローケミストリー）の実装は、最初のポンプ選びから。ラボから商業化まで同じ構造で使える、完全密閉構造のスムーズフローポンプ。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="mast">
+  <div class="in">
+    <div class="brand"><small>精密ポンプのリーディングカンパニー</small><b>TACMINA</b></div>
+    <nav class="gnav" aria-label="ページ内"><a href="#movie">動画</a><a href="#flow">フロー合成とは</a><a href="#key">ポンプ選び</a><a href="#why">選ばれる理由</a><a href="#record">実績</a><a href="#line">製品</a></nav>
+    <div class="mast-yel"><span class="lbl">フロー合成のご相談</span><button class="mast-btn js-cta" type="button">フロー合成の相談をする →</button></div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="chips"><span class="chip on">フロー合成</span><span class="chip">フローケミストリー</span></div>
+        <p class="prodname">スムーズフローポンプ <span>フロー合成用途</span></p>
+        <h1><span class="ib">フロー合成の実装は、</span><span class="ib"><em>最初のポンプ選び</em>から。</span></h1>
+        <p class="lead">ラボ・研究開発からパイロット、商業化まで、同じ構造のポンプを採用できます。完全密閉構造で、ブチルリチウムのような禁水性物質も外気に触れさせずに送液できます。</p>
+        <div class="acts"><button class="b-yel js-cta" type="button">フロー合成の相談をする →</button><a class="b-line" href="#try">デモ・貸し出し・サブスク</a></div>
+      </div>
+      <figure class="movie" id="movie">
+        <div class="player" id="player">
+          <video id="vid" src="video/tacmina_flow_synthesis.mp4" poster="images/01_video_poster.jpg" preload="metadata" playsinline aria-label="フロー合成×スムーズフローポンプ 紹介動画"></video>
+          <button class="play" id="playbtn" type="button" aria-label="紹介動画を再生"><span class="disc"><svg viewBox="0 0 24 24" aria-hidden="true"><path id="ico" d="M7 4.5v15l12-7.5z"/></svg></span><span class="lbl">紹介動画を見る</span></button>
+          <div class="bar-p" aria-hidden="true"><i id="prog"></i></div>
+        </div>
+        <figcaption><span>紹介動画（2分43秒・音声あり）</span><span id="tm">0:00 / 2:43</span></figcaption>
+      </figure>
+    </div>
+    <dl class="figs">
+      <div><dd class="n">2005<small>年前後〜</small></dd><dt>フロー合成で使われてきた実績</dt><p>マイクロリアクター式で採用</p></div>
+      <div><dd class="n">密閉</dd><dt>完全密閉構造で外気に触れない</dt><p>ブチルリチウムを送液</p></div>
+      <div><dd class="n">同じ構造</dd><dt>ラボから商業化まで</dt><p>パイロット・商業化まで同じ構造</p></div>
+    </dl>
+  </div>
+</div>
+
+<section class="grey" id="flow">
+  <div class="wrap">
+    <h2><span style="display:inline-block">連続生産へ。</span><span style="display:inline-block">バッチ式からフロー合成へ。</span></h2>
+    <p class="lead">フロー合成は、2種類以上の溶液を連続的に流し、温度や滞留時間（反応時間）をコントロールしながら化学合成を行う技術方式です。医薬中間体などの機能性化学品の製造工程で注目されています。</p>
+    <figure class="fdiag" aria-label="フロー合成のしくみ（イメージ）">
+      <svg viewBox="0 0 1160 300" role="img">
+        <title>溶液Aと溶液Bをポンプで送り、混合して温度制御された反応管を流す</title>
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M70 60 H300 V150 H360" stroke="#C8C8C4" stroke-width="16"/><path d="M70 240 H300 V150 H360" stroke="#C8C8C4" stroke-width="16"/>
+          <path d="M70 60 H300 V150 H360" stroke="#408CDC" stroke-width="8" stroke-dasharray="40 18"/><path d="M70 240 H300 V150 H360" stroke="#F08028" stroke-width="8" stroke-dasharray="40 18"/>
+          <rect x="380" y="40" width="560" height="200" rx="12" fill="#FFF4D6" stroke="#FFC641" stroke-width="3"/>
+          <path d="M360 150 H410 V70 V210 H480 V70 H550 V210 H620 V70 H690 V210 H760 V70 H830 V210 H900 V150 H1090" stroke="#C8C8C4" stroke-width="16"/>
+          <path d="M360 150 H410 V70 V210 H480 V70 H550 V210 H620 V70 H690 V210 H760 V70 H830 V210 H900 V150 H1090" stroke="#7E70A6" stroke-width="8" stroke-dasharray="40 18"/>
+        </g>
+        <g fill="#FFC641" stroke="#141414" stroke-width="4"><circle cx="70" cy="60" r="30"/><circle cx="70" cy="240" r="30"/></g>
+        <g fill="#141414"><path d="M60 46 L88 60 L60 74z"/><path d="M60 226 L88 240 L60 254z"/></g>
+        <rect x="346" y="136" width="28" height="28" fill="#fff" stroke="#141414" stroke-width="4"/>
+        <g font-family="Noto Sans JP, sans-serif" font-size="22" font-weight="700" fill="#2E2E2E">
+          <text x="40" y="22">溶液A</text><text x="40" y="294">溶液B</text><text x="318" y="196">混合</text>
+          <text x="960" y="186">生成物</text><text x="390" y="272" fill="#B07C00">温度制御</text><text x="620" y="272">滞留時間（反応時間）</text>
+        </g>
+      </svg>
+    </figure>
+
+    <div class="vs">
+      <div class="vs-b">
+        <h3>バッチ式反応の課題</h3>
+        <ul><li>瞬間的な当量制御が難しい</li><li>危険な反応には不向き</li><li>研究者依存の合成（属人的）→ 再現性に課題</li></ul>
+      </div>
+      <div class="vs-f">
+        <h3>フロー合成のメリット</h3>
+        <ul><li>当量・反応時間の精密制御</li><li>高速混合、最適な反応空間</li><li>高品質（高収率・品質向上）</li><li>低コスト（設備の小型化・省人化）</li></ul>
+      </div>
+    </div>
+
+    <details class="more">
+      <summary>フロー合成の3つの方式</summary>
+      <div class="body">
+        <dl class="apps">
+          <div><dt>マイクロリアクター式（フラッシュ式）</dt><dd>一辺あたり1mm以下の空間で化学反応を行う装置を使う方式。医薬品合成、ファインケミカル合成、光化学反応などの特殊な反応など、高度な制御が必要な反応に適しています。</dd></div>
+          <div><dt>カラムリアクター式（固体触媒式）</dt><dd>細長い円柱状の「カラム」に固体触媒を用い、連続的に反応物を供給して生成物を得る方式。固体触媒を用いる反応に適しています。</dd></div>
+          <div><dt>CSTR式</dt><dd>連続攪拌槽型反応器（Continuous Stirred-Tank Reactor）を直列に配置し、反応物を連続的に供給して処理する方式。重合反応、発酵プロセス、石油化学プロセスなど大量生産に適した反応に利用されます。</dd></div>
+        </dl>
+      </div>
+    </details>
+
+    <div class="gap">
+      <h2><span style="display:inline-block">始めようとすると、</span><span style="display:inline-block">ここでつまずく。</span></h2>
+      <ol class="qs">
+        <li>今のバッチ法を、フロー合成に置き換えられるか判断できない</li>
+        <li>何から着手すべきか分からない</li>
+        <li>どこに相談するのが正解か分からない（装置メーカー？反応機器メーカー？）</li>
+        <li>ラボからスケールアップへの移行ができない</li>
+      </ol>
+      <p class="qs-end">判断を誤れば、時間とコストを失います。</p>
+    </div>
+  </div>
+</section>
+
+<section id="key">
+  <div class="wrap">
+    <p class="pre">量産化でつまずく原因は、反応ではなく、ポンプかもしれません。</p>
+    <h2 class="key"><span style="display:inline-block">実装成功のカギは、</span><span style="display:inline-block"><em>最初のポンプ選び。</em></span></h2>
+    <p class="lead">大切なのは、ラボから製造まで同じ構造のポンプを使えること。スムーズフローポンプは、ラボ・研究開発からパイロット、商業化まで同じ構造のポンプを採用できます。</p>
+    <figure class="scale" aria-label="ラボから製造まで同じ構造のポンプ">
+      <svg viewBox="0 0 1160 260" role="img">
+        <title>ラボ、ベンチ、パイロット、製造のどの段階でも同じ構造のポンプを使う</title>
+        <line x1="120" y1="150" x2="1040" y2="150" stroke="#FFC641" stroke-width="10"/>
+        <g fill="#fff" stroke="#C8C8C4" stroke-width="4">
+          <rect x="95" y="60" width="50" height="70" rx="10"/><rect x="390" y="40" width="80" height="90" rx="14"/><rect x="680" y="20" width="120" height="110" rx="18"/><rect x="975" y="0" width="160" height="130" rx="22"/>
+        </g>
+        <g fill="#E1ECF6"><rect x="99" y="98" width="42" height="28"/><rect x="394" y="88" width="72" height="38"/><rect x="684" y="76" width="112" height="50"/><rect x="979" y="64" width="152" height="62"/></g>
+        <g fill="#FFC641" stroke="#141414" stroke-width="4"><circle cx="120" cy="170" r="18"/><circle cx="430" cy="172" r="24"/><circle cx="740" cy="174" r="30"/><circle cx="1055" cy="178" r="38"/></g>
+        <g fill="#141414"><path d="M113 161 L131 170 L113 179z"/><path d="M420 160 L444 172 L420 184z"/><path d="M727 159 L757 174 L727 189z"/><path d="M1038 159 L1076 178 L1038 197z"/></g>
+        <g font-family="Zen Kaku Gothic New, Noto Sans JP, sans-serif" font-size="26" font-weight="900" fill="#141414" text-anchor="middle">
+          <text x="120" y="244">ラボ</text><text x="430" y="244">ベンチ</text><text x="740" y="244">パイロット</text><text x="1055" y="248">製造</text>
+        </g>
+      </svg>
+    </figure>
+  </div>
+</section>
+
+<section id="why" class="tight">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <h2><span style="display:inline-block">完全密閉構造で、</span><span style="display:inline-block">ブチルリチウムを送れる。</span></h2>
+        <p class="lead">禁水性物質（水や空気中の水分などと反応して発熱、発火する危険な化学薬品）の代表ともいえるブチルリチウム（BuLi）。使用の際は、完全密閉で外気に触れることのないスムーズフローポンプが選ばれています。</p>
+        <p class="util">電源以外のユーティリティーは一切使わずに、ブチルリチウム溶液を送液できます。</p>
+      </div>
+      <figure class="seal" aria-label="完全密閉構造のイメージ">
+        <svg viewBox="0 0 560 360" role="img">
+          <title>BuLiボトルから完全密閉のポンプを通って送液。外気（水分）はポンプ内に入らない</title>
+          <g fill="none" stroke="#8CB0D4" stroke-width="3"><circle cx="40" cy="60" r="9"/><circle cx="110" cy="30" r="9"/><circle cx="500" cy="50" r="9"/><circle cx="530" cy="300" r="9"/><circle cx="30" cy="320" r="9"/><circle cx="250" cy="20" r="9"/><circle cx="420" cy="340" r="9"/></g>
+          <text x="140" y="36" font-family="Noto Sans JP, sans-serif" font-size="18" font-weight="700" fill="#6A8CB0">H2O（空気中の水分）</text>
+          <rect x="30" y="140" width="100" height="160" rx="14" fill="#FAF0E1" stroke="#141414" stroke-width="4"/><rect x="58" y="110" width="44" height="30" fill="#2E2E2E"/>
+          <text x="80" y="230" text-anchor="middle" font-family="Noto Sans JP, sans-serif" font-size="22" font-weight="900">n-BuLi</text>
+          <g stroke-linecap="round"><path d="M130 250 H240" stroke="#C8C8C4" stroke-width="16"/><path d="M130 250 H240" stroke="#F08028" stroke-width="8" stroke-dasharray="30 14"/>
+          <path d="M360 250 H530" stroke="#C8C8C4" stroke-width="16"/><path d="M360 250 H530" stroke="#F08028" stroke-width="8" stroke-dasharray="30 14"/></g>
+          <rect x="190" y="110" width="220" height="220" rx="28" fill="none" stroke="#E9A800" stroke-width="5"/>
+          <text x="208" y="142" font-family="Noto Sans JP, sans-serif" font-size="20" font-weight="900" fill="#B07C00">完全密閉</text>
+          <circle cx="300" cy="250" r="50" fill="#FFC641" stroke="#141414" stroke-width="4"/><path d="M285 228 L325 250 L285 272z" fill="#141414"/>
+        </svg>
+      </figure>
+    </div>
+
+    <div class="gap">
+      <h2><span style="display:inline-block">フロー合成で、</span><span style="display:inline-block">スムーズフローポンプが優れている点</span></h2>
+      <ol class="six">
+        <li><b>高い再現性、長期間安定した性能を維持</b></li>
+        <li><b>脈動が少ない</b></li>
+        <li><b>液漏れしない</b><span>空気や水などに不安定な試薬にも</span></li>
+        <li><b>安全</b><span>連続運転中のトラブルなど</span></li>
+        <li><b>良好な洗浄性</b><span>メンテナンスの観点から</span></li>
+        <li><b>幅広い液質に対応</b><span>スラリーとの相性など</span></li>
+      </ol>
+      <details class="more">
+        <summary>脈動の違い（イメージ）を見る</summary>
+        <div class="body"><figure style="margin:0"><div class="pulse">
+        <div><p class="rl">一般的な往復動ポンプ<span>吐出が途切れ、注入ムラが出る</span></p><svg viewBox="0 0 400 70" preserveAspectRatio="none" aria-hidden="true">
+<path d="M0 66 L5.0 66 L5.0 66.0 L7.1 58.4 L9.2 51.0 L11.2 43.8 L13.3 37.0 L15.4 30.7 L17.5 25.0 L19.6 20.0 L21.7 15.8 L23.8 12.4 L25.8 10.0 L27.9 8.5 L30.0 8.0 L32.1 8.5 L34.2 10.0 L36.2 12.4 L38.3 15.8 L40.4 20.0 L42.5 25.0 L44.6 30.7 L46.7 37.0 L48.8 43.8 L50.8 51.0 L52.9 58.4 L55.0 66.0 L55.0 66 L105.0 66 L105.0 66.0 L107.1 58.4 L109.2 51.0 L111.2 43.8 L113.3 37.0 L115.4 30.7 L117.5 25.0 L119.6 20.0 L121.7 15.8 L123.8 12.4 L125.8 10.0 L127.9 8.5 L130.0 8.0 L132.1 8.5 L134.2 10.0 L136.2 12.4 L138.3 15.8 L140.4 20.0 L142.5 25.0 L144.6 30.7 L146.7 37.0 L148.8 43.8 L150.8 51.0 L152.9 58.4 L155.0 66.0 L155.0 66 L205.0 66 L205.0 66.0 L207.1 58.4 L209.2 51.0 L211.2 43.8 L213.3 37.0 L215.4 30.7 L217.5 25.0 L219.6 20.0 L221.7 15.8 L223.8 12.4 L225.8 10.0 L227.9 8.5 L230.0 8.0 L232.1 8.5 L234.2 10.0 L236.2 12.4 L238.3 15.8 L240.4 20.0 L242.5 25.0 L244.6 30.7 L246.7 37.0 L248.8 43.8 L250.8 51.0 L252.9 58.4 L255.0 66.0 L255.0 66 L305.0 66 L305.0 66.0 L307.1 58.4 L309.2 51.0 L311.2 43.8 L313.3 37.0 L315.4 30.7 L317.5 25.0 L319.6 20.0 L321.7 15.8 L323.8 12.4 L325.8 10.0 L327.9 8.5 L330.0 8.0 L332.1 8.5 L334.2 10.0 L336.2 12.4 L338.3 15.8 L340.4 20.0 L342.5 25.0 L344.6 30.7 L346.7 37.0 L348.8 43.8 L350.8 51.0 L352.9 58.4 L355.0 66.0 L355.0 66 L400 66 Z" fill="#B9B9B4" stroke="#6E6E6A" stroke-width="2" vector-effect="non-scaling-stroke"/>
+<line x1="0" y1="66" x2="400" y2="66" stroke="#6E6E6A" stroke-width="1" vector-effect="non-scaling-stroke"/></svg></div>
+        <div><p class="rl">スムーズフローポンプ Q<span>同じ平均流量を、途切れずに送る</span></p><svg viewBox="0 0 400 70" preserveAspectRatio="none" aria-hidden="true">
+<rect x="0" y="47.5" width="400" height="18.5" fill="#FFC641"/>
+<line x1="0" y1="47.5" x2="400" y2="47.5" stroke="#141414" stroke-width="3" vector-effect="non-scaling-stroke"/>
+<line x1="0" y1="66" x2="400" y2="66" stroke="#6E6E6A" stroke-width="1" vector-effect="non-scaling-stroke"/></svg></div>
+        <div class="axis"><span>流量の時間変化（イメージ）</span><span>時間 →</span></div>
+      </div></figure></div>
+      </details>
+      <table class="case-tbl">
+        <tr><th scope="row">空気に触れると変質する液を送りたい</th><td>完全密閉構造で<b>液漏れ・外気接触なし</b>。摩擦熱や局所的な圧力変化で液を変質・凝固させることもありません。禁水性物質も液性を保って移送できます（条件あり）。</td></tr>
+        <tr><th scope="row">バルブの開け忘れ・配管の詰まり</th><td>閉塞運転時も<b>ポンプに負荷がかからず故障しません</b>。圧力が上昇すると送液を止め、ポンプと配管を保護します。</td></tr>
+        <tr><th scope="row">空運転になってしまった</th><td>摺動部がないため、<b>カジリ・焼きつき・摩耗・破損の心配がありません</b>。</td></tr>
+        <tr><th scope="row">研究から生産へ移行したい</th><td>同じ送液方式で大容量・高圧・高粘度・スラリー・防爆仕様に対応。<b>ラボと生産ラインで同じ方式を使え</b>、商業化までの時間を短縮できます。</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="record">
+  <div class="wrap">
+    <h2><span style="display:inline-block">2005年前後から、</span><span style="display:inline-block">フロー合成の現場に。</span></h2>
+    <p class="lead">スムーズフローポンプは2005年前後から、フロー合成のマイクロリアクター式で使われるようになりました。日本におけるフロー合成の研究・発展に参画するとともに、フロー合成に最適なポンプ、流体ソリューションの開発に取り組んでいます。</p>
+    <div class="rec">
+      <figure><div class="ph"><img src="images/18_case_microreactor.jpg" alt="マイクロリアクターに接続されたポンプ"></div><figcaption><b>フラッシュ（マイクロリアクター式）</b>ポンプでマイクロリアクターに薬液を供給。<span class="tbd">［差し替え予定］現場撮影の送液映像・写真</span></figcaption></figure>
+      <figure><div class="ph ph-empty"><span>固定触媒（カラムリアクター式）<br>現場撮影の送液映像・写真を掲載予定</span></div><figcaption><b>固定触媒（カラムリアクター式）</b>固体触媒を充填したカラムへ連続的に送液。<span class="tbd">［差し替え予定］現場撮影の送液映像・写真</span></figcaption></figure>
+    </div>
+    <div class="orgs">
+      <h3>参加している研究会・コンソーシアム</h3>
+      <ul>
+        <li>グリーン・サステイナブル・ケミストリー社会連携講座（東京大学連続フロー研究センター）</li>
+        <li>京都大学化学プロセス研究コンソーシアム</li>
+        <li>フロー・マイクロ合成研究会</li>
+        <li>岡山大学マイクロリアクターネット</li>
+        <li>フロー精密合成コンソーシアム（FlowST）</li>
+        <li>化学とマイクロナノシステム学会</li>
+      </ul>
+      <p class="note">京都大学コンソーシアムのアニオン重合プロジェクトの論文への投稿、米国のジャーナル『OPR&amp;D』記事への共同研究者としての参加もしています。</p>
+    </div>
+    <h3 class="cases-h">導入事例</h3>
+    <div class="voices"><article class="voice">
+        <img src="images/18_case_microreactor.jpg" alt="マイクロリアクターに接続されたポンプ">
+        <p class="who">国立大学 様</p>
+        <h3><span class="ph">禁水性物質のブチルリチウムで</span><span class="ph">連続的に合成ができた！</span></h3>
+        <div class="flow">
+          <div class="need"><p class="vl">課題・要望</p><p class="ctx">有機合成の実験で、マイクロリアクターに薬液（BuLi）を供給する。</p><ul><li>反応を厳密に制御したい</li><li>液を空気に触れさせたくない</li><li>液を結晶化させずに送りたい</li></ul></div>
+          <div class="sol"><p class="vl">導入後</p><ul><li>脈動のない連続流で精密送液</li><li>密閉構造で液が漏れない</li><li>結晶化を起こさずに移送できた</li></ul></div>
+        </div>
+      </article></div>
+    <div class="strip"><div class="case"><img src="images/19_case_synthesis.jpg" alt="合成実験装置に組み込まれたポンプ"><p class="org">住友ファーマ株式会社 様</p><p class="ttl">使い勝手のよい小型ポンプが合成実験に活躍</p></div><div class="case"><img src="images/20_case_spectroscopy.jpg" alt="分光測定用のサンプル"><p class="org">私立大学（理工学部）様</p><p class="ttl">シリンジポンプでできなかった長時間の連続分光測定が可能に</p></div><div class="case"><img src="images/21_case_observation.jpg" alt="観測装置に組み込まれたポンプ"><p class="org">高エネルギー加速器研究機構 様</p><p class="ttl">サンプル液を安定的に送液して原子の動きを観測</p></div><div class="case"><img src="images/22_case_extraction.jpg" alt="複数台のポンプを使った連続抽出装置"><p class="org">化学メーカー 様</p><p class="ttl">ミキサーセトラーによる連続溶媒抽出を省スペースで</p></div></div>
+  </div>
+</section>
+
+<section id="line">
+  <div class="wrap">
+    <h2><span style="display:inline-block">ラボ検討からスケールアップまで、</span><span style="display:inline-block">一貫して。</span></h2>
+    <p class="lead">フロー合成向けの製品ラインアップが充実しているため、ラボ検討からスケールアップまで一貫して対応でき、安心して開発を進めることができます。</p>
+    <div class="stages">
+      <div><p class="st">ラボ</p><div class="im"><img src="images/line_012.png" alt="ラボ向けポンプ"><img src="images/line_016.png" alt="ラボ向けユニット"><img src="images/line_015.png" alt="ラボ向け試験装置"></div></div>
+      <div><p class="st">ベンチ</p><div class="im"><img src="images/line_018.png" alt="ベンチ向けポンプ"><img src="images/line_017.png" alt="ベンチ向けポンプ"></div></div>
+      <div><p class="st">生産</p><div class="im"><img src="images/line_013.png" alt="生産向けユニット"><img src="images/line_014.png" alt="生産向けユニット"><img src="images/line_011.png" alt="生産向けポンプ"></div></div>
+    </div>
+    <p class="note tbd">［差し替え予定］製品写真は構成案の画像を仮置きしています。高解像度の写真と製品名をいただき次第差し替えます。</p>
+    <p class="note">関連製品：フロー合成と合わせて使われる世界最小クラスのスタティックミキサー／流量・圧力を計測できるフロー合成試験用装置／ベンチフロー反応装置</p>
+
+    <div class="gap" id="spec">
+      <h2><span style="display:inline-block">ラボ用 スムーズフローポンプQ</span><span style="display:inline-block">の仕様</span></h2>
+            <div class="tbls">
+        <div>
+          <div class="tbl"><table>
+            <caption>ミリリットルクラス<span>型式 Q・QI・QT</span></caption>
+            <thead><tr><th scope="col">機種</th><th scope="col">100</th><th scope="col">60</th><th scope="col">30</th><th scope="col">10</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">吐出量<small>mL/min</small></th><td>0.1〜100</td><td>0.1〜60</td><td>0.1〜30</td><td>0.1〜10</td></tr>
+              <tr><th scope="row">最高吐出圧力<small>MPa</small></th><td>0.3</td><td>0.6</td><td>1.0</td><td>2.0</td></tr>
+              <tr><th scope="row">ポンプヘッド材質</th><td class="w" colspan="4">PVC（100のみ）／PTFE（100・60のみ）／SUS316</td></tr>
+            </tbody></table></div>
+          <p class="note">流量は0.01mL/min単位で設定。Q-30-TTCT（スラリー対応）は0.1〜27mL/min。</p>
+        </div>
+        <div>
+          <div class="tbl"><table>
+            <caption>マイクロリットルクラス<span>型式 Q・QI</span></caption>
+            <thead><tr><th scope="col">機種</th><th scope="col">5</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">吐出量<small>μL/min</small></th><td>5〜5,000</td></tr>
+              <tr><th scope="row">最高吐出圧力<small>MPa</small></th><td>3.0</td></tr>
+              <tr><th scope="row">ポンプヘッド材質</th><td class="w">PEEK／SUS316L</td></tr>
+            </tbody></table></div>
+          <p class="note">流量は1μL/min単位で設定。</p>
+        </div>
+      </div>
+
+      <details class="more">
+        <summary>運転機能と対応機種（Q・QI・QT）</summary>
+        <div class="body"><div class="mx"><table>
+        <thead><tr><th scope="col">運転機能</th><th scope="col" class="m">Q</th><th scope="col" class="m">QI</th><th scope="col" class="m">QT</th><th scope="col">内容</th></tr></thead>
+        <tbody><tr><th scope="row">オートストップ運転</th><td class="m y">●</td><td class="m">－</td><td class="m">－</td><td class="d">運転時間または吐出量を設定して、自動で停止します。</td></tr><tr><th scope="row">パルス入力比例運転</th><td class="m">－</td><td class="m y">●</td><td class="m">－</td><td class="d">外部からのパルス信号入力によって自動で運転します。</td></tr><tr><th scope="row">アナログ入力比例運転</th><td class="m">－</td><td class="m y">●</td><td class="m">－</td><td class="d">外部からのアナログ信号（DC4-20mA）に比例して流量を変化させます。</td></tr><tr><th scope="row">インターバル運転</th><td class="m">－</td><td class="m">－</td><td class="m y">●</td><td class="d">一定時間ごとにON/OFFを繰り返します。</td></tr><tr><th scope="row">グラジエント運転</th><td class="m">－</td><td class="m">－</td><td class="m y">●</td><td class="d">運転時間の経過に比例して、流量を徐々に上げる／下げることができます。</td></tr><tr><th scope="row">信号出力機能</th><td class="m">－</td><td class="m y">●</td><td class="m y">●</td><td class="d">単位パルス出力・警報出力・動作出力。停止出力（インターバル・グラジエント運転の終了時）はQTのみ。</td></tr></tbody>
+      </table></div></div>
+      </details>
+            <details class="more">
+        <summary>サブスク対象機 SUB-QI の仕様</summary>
+        <div class="body">
+          <p class="note" style="margin:0">型式コード：SUB-QI − ①機種（流量） − ②接液部材質 − P（電源コード） − S（全般仕様）</p>
+          <div class="tbl"><table>
+            <thead><tr><th scope="col">① 機種</th><th scope="col">100</th><th scope="col">60</th><th scope="col">30</th><th scope="col">10</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">本体サイズ（参考）<small>mm</small></th><td colspan="4">W110×D173×H129</td></tr>
+              <tr><th scope="row">最大流量<sup>※1</sup><small>mL/min</small></th><td>100</td><td>60</td><td>30（27）<sup>※4</sup></td><td>10</td></tr>
+              <tr><th scope="row">流量制御範囲<small>mL/min</small></th><td colspan="4">0.1〜最大流量まで</td></tr>
+              <tr><th scope="row">最高吐出圧力<small>MPa</small></th><td>0.3</td><td>0.6</td><td>1.0</td><td>2.0</td></tr>
+              <tr><th scope="row">② 接液部 標準</th><td>TT・6T・VE・VF</td><td>TT・6T</td><td>6T</td><td>6T</td></tr>
+              <tr><th scope="row">② 接液部 スラリー</th><td>TTCT・6T6T</td><td>TTCT・6T6T</td><td>TTCT・6T6T</td><td>6T6T</td></tr>
+              <tr><th scope="row">周囲温度<sup>※2</sup><small>℃</small></th><td colspan="4">0〜40</td></tr>
+              <tr><th scope="row">移送液温度<small>℃</small></th><td colspan="4" class="w">0〜40（凍結なきこと）。6T・6T6Tは条件により0〜60（凍結なきこと）<sup>※5</sup></td></tr>
+              <tr><th scope="row">移送液粘度<sup>※3</sup><small>mPa·s</small></th><td colspan="2">200以下</td><td colspan="2">100以下</td></tr>
+              <tr><th scope="row">対環境性</th><td colspan="4" class="w">IEC規格6：IP65相当（防塵・防水）</td></tr>
+              <tr><th scope="row">電源</th><td colspan="4" class="w">AC100V専用プラグ付き（ケーブル2m）</td></tr>
+            </tbody></table></div>
+          <p class="note" style="margin:0">※1 条件：清水、室温　※2 輸送・保管時は−10〜50℃　※3・※5 詳しくはお問い合わせください　※4（ ）内は接液部材質がPTFEの場合</p>
+        </div>
+      </details>
+      <details class="more">
+        <summary>SUB-QI 接液部材質の詳細</summary>
+        <div class="body">
+          <div class="tbl"><table>
+            <caption>標準タイプ</caption>
+            <thead><tr><th scope="col">記号</th><th scope="col">TT</th><th scope="col">6T</th><th scope="col">VE</th><th scope="col">VF</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">ポンプヘッド</th><td>PTFE</td><td>SUS316</td><td>PVC</td><td>PVC</td></tr>
+              <tr><th scope="row">ダイヤフラム</th><td>PTFE/CR</td><td>PTFE/CR</td><td>PTFE/CR</td><td>PTFE/CR</td></tr>
+              <tr><th scope="row">シート弁・パッキン</th><td class="w">特殊フッ素ゴム（パーフロ）</td><td class="w">特殊フッ素ゴム（パーフロ）</td><td>EPDM</td><td class="w">特殊フッ素ゴム</td></tr>
+              <tr><th scope="row">継手</th><td>PTFE</td><td>SUS316</td><td>PP</td><td>PP</td></tr>
+              <tr><th scope="row">接続口径チューブ径</th><td colspan="2">吐出1/8×吸込1/4</td><td colspan="2">吐出吸込φ6</td></tr>
+              <tr><th scope="row">チューブ継手ねじ径</th><td class="w">吐出1/4-28UNF<br>吸込1/2-20UNF</td><td class="w">吐出G1/8<br>吸込G1/8</td><td colspan="2" class="w">吐出Rc1/8／吸込Rc1/8</td></tr>
+            </tbody></table></div>
+          <div class="tbl"><table>
+            <caption>スラリータイプ</caption>
+            <thead><tr><th scope="col">記号</th><th scope="col">TTCT</th><th scope="col">6T6T</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">ポンプヘッド</th><td>PTFE</td><td>SUS316</td></tr>
+              <tr><th scope="row">ダイヤフラム</th><td>PTFE/CR</td><td>PTFE/CR</td></tr>
+              <tr><th scope="row">Oリング</th><td class="w">特殊フッ素ゴム（パーフロ）</td><td class="w">特殊フッ素ゴム（パーフロ）</td></tr>
+              <tr><th scope="row">チャッキボール</th><td>セラミック</td><td>SUS316</td></tr>
+              <tr><th scope="row">接続口径チューブ径</th><td colspan="2">吐出1/8×吸込1/4</td></tr>
+              <tr><th scope="row">チューブ継手ねじ径</th><td class="w">吐出1/4-28UNF<br>吸込1/2-20UNF</td><td class="w">吐出G1/8<br>吸込G1/8</td></tr>
+            </tbody></table></div>
+          <p class="note" style="margin:0">※ チューブは付属しません。</p>
+        </div>
+      </details>
+      <details class="more">
+        <summary>SUB-QI 入出力信号仕様</summary>
+        <div class="body">
+          <div class="tbl"><table>
+            <thead><tr><th scope="col" colspan="2">信号</th><th scope="col" style="text-align:left">仕様</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">アナログ</th><th scope="row">入力</th><td class="w">1ポート／DC4-20mA／入力抵抗：約110Ω</td></tr>
+              <tr><th scope="row" rowspan="2">デジタル</th><th scope="row">入力</th><td class="w">2ポート／無電圧接点・オープンコレクタ<sup>※</sup>／最大パルス数：6000pulse/min／最小パルス幅：5msec（ON時間）。パルス入力、停止/運転入力、レベル入力、MAX運転入力から選択して割り付け</td></tr>
+              <tr><th scope="row">出力</th><td class="w">2ポート／DC25V 10mA。単位パルス出力、警報出力、動作出力から選択して割り付け</td></tr>
+            </tbody></table></div>
+          <p class="note" style="margin:0">※ オープンコレクタの残留電圧は1V以下となるようにしてください。デジタル信号はシンクロジック（NPN）です。</p>
+        </div>
+      </details>
+      <h3 class="types-h">より大きな流量・高圧・高粘度には</h3>
+      <div class="types">
+        <figure><img src="images/02_hpl.jpg" alt="高圧タイプ HPL"><figcaption><b>高圧タイプ</b>最大吐出量 0.8〜5L/min／最高吐出圧力 50MPa</figcaption></figure>
+        <figure><img src="images/03_high_viscosity.jpg" alt="高粘度タイプ"><figcaption><b>高粘度タイプ</b>300,000mPa·s超にも対応。1.6〜10L/min／0.5MPa</figcaption></figure>
+        <figure><img src="images/04_gpl.jpg" alt="大流量タイプ GPL"><figcaption><b>大流量タイプ</b>最大吐出量 300L/min／最高吐出圧力 0.3MPa</figcaption></figure>
+        <figure><img src="images/05_unit_system.jpg" alt="ユニット・システムの例"><figcaption><b>ユニット／システム</b>ご要望に応じて設計・製作します。</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dark cta" id="cta">
+  <div class="wrap">
+    <h2 id="try"><span style="display:inline-block">すぐ試せる。</span><span style="display:inline-block"><em>予算をかけずに試せる。</em></span></h2>
+    <p class="lead">フロー合成用ポンプのデモンストレーションや貸し出し、一部のポンプは使う時だけレンタルできるサブスクリプションサービスも実施しています。</p>
+    <div class="acts">
+      <button class="b-yel" type="button"><span>フロー合成について相談する<small>バッチ式からの移行・導入のご検討</small></span>→</button>
+      <button class="b-line" type="button"><span>デモンストレーション・貸し出しを依頼する<small>フロー合成用ポンプ</small></span>→</button>
+      <a class="b-line" href="#subsc"><span>サブスクリプションで借りる<small>一部のポンプ・使う時だけ</small></span>→</a>
+      <button class="b-line" type="button"><span>カタログを請求する<small>PDF・CADデータ</small></span>→</button>
+    </div>
+    <div class="subbox" id="subsc">
+      <h3>ポンプのサブスクサービス（対象機種 SUB-QI）</h3>
+      <dl class="subdl">
+      <div><dt>契約期間</dt><dd>月単位、1ヶ月から。研究・実験の期間だけ使って返却。</dd></div>
+      <div><dt>利用期間中</dt><dd>性能保証。トラブル時も早急に対応します。</dd></div>
+      <div><dt>経理</dt><dd>経費計上でき、資産管理は不要です。</dd></div>
+      <div><dt>予算</dt><dd>購入予算が付かなくても、安価で手軽に始められます。</dd></div>
+    </dl>
+      <div class="desk">
+      <div>
+        <p class="t">サブスク窓口｜対象機種 SUB-QI（ミリリットルクラス）</p>
+        <p class="v"><span>TEL</span><b class="n">06-7178-4508</b></p>
+        <p class="v"><span>Email</span><b>tac_subsc@tacmina.co.jp</b></p>
+      </div>
+      <a class="b-yel" href="https://www.tacmina.jp" target="_blank" rel="noopener">会員登録・料金を見る →</a>
+    </div>
+      <p class="note">本サービスは日本国内での利用に限ります。</p>
+    </div>
+    <p class="last">まずはタクミナにご相談を。</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="fb">TACMINA</p>
+    <p>本ページは、株式会社タクミナのWeb記事「フロー合成（フローケミストリー）を始める前に知っておきたいポンプについてのお話」、製品ページ・カタログ、およびご提示の動画構成案をもとに構成したLPの制作サンプルです。ボタンのリンク先は未設定です。</p>
+  </div>
+</footer>
+
+<nav class="bar" id="bar" aria-label="お問い合わせ"><div class="inner"><button class="p js-cta" type="button">フロー合成の相談</button><button class="js-sub" type="button">デモ・サブスク</button></div></nav>
+
+<script src="js/main.js"></script>
+</body>
+</html>
